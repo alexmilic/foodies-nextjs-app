@@ -9,6 +9,7 @@ export default function MealItem({ title, slug, image, summary, creator }) {
       <header>
         <div className={classes.image}>
           <Image src={image} alt={title} fill />
+          {image}
         </div>
         <div className={classes.headerText}>
           <h2>{title}</h2>
