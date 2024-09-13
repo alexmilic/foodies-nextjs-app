@@ -12,10 +12,22 @@
       "static/css/app/meals/page.css",
       "static/chunks/app/meals/page.js"
     ],
-    "/meals/[mealSlug]/page": [
+    "/community/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/meals/[mealSlug]/page.js"
+      "static/css/app/community/page.css",
+      "static/chunks/app/community/page.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
+    "/meals/share/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/meals/share/page.js"
     ]
   }
 }
